@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/layout",{
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Fmateus%2FTRYBE%2FPortfolio%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.js%22%2C%22import%22%3A%22Press_Start_2P%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%2C%22weight%22%3A%5B%22400%22%5D%7D%5D%2C%22variableName%22%3A%22pres%22%7D&modules=%2Fhome%2Fmateus%2FTRYBE%2FPortfolio%2Fsrc%2Fapp%2Fglobals.css&server=false!":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Fmateus%2FTRYBE%2FPortfolio%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.js%22%2C%22import%22%3A%22Press_Start_2P%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%2C%22weight%22%3A%5B%22400%22%5D%7D%5D%2C%22variableName%22%3A%22pres%22%7D&modules=%2Fhome%2Fmateus%2FTRYBE%2FPortfolio%2Fsrc%2Fapp%2Fglobals.css&server=false! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Press_Start_2P\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"pres\"} */ \"(app-pages-browser)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.js\\\",\\\"import\\\":\\\"Press_Start_2P\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"],\\\"weight\\\":[\\\"400\\\"]}],\\\"variableName\\\":\\\"pres\\\"}\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/globals.css */ \"(app-pages-browser)/./src/app/globals.css\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lMkZob21lJTJGbWF0ZXVzJTJGVFJZQkUlMkZQb3J0Zm9saW8lMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZm9udCUyRmdvb2dsZSUyRnRhcmdldC5jc3MlM0YlN0IlMjJwYXRoJTIyJTNBJTIyc3JjJTJGYXBwJTJGbGF5b3V0LmpzJTIyJTJDJTIyaW1wb3J0JTIyJTNBJTIyUHJlc3NfU3RhcnRfMlAlMjIlMkMlMjJhcmd1bWVudHMlMjIlM0ElNUIlN0IlMjJzdWJzZXRzJTIyJTNBJTVCJTIybGF0aW4lMjIlNUQlMkMlMjJ3ZWlnaHQlMjIlM0ElNUIlMjI0MDAlMjIlNUQlN0QlNUQlMkMlMjJ2YXJpYWJsZU5hbWUlMjIlM0ElMjJwcmVzJTIyJTdEJm1vZHVsZXM9JTJGaG9tZSUyRm1hdGV1cyUyRlRSWUJFJTJGUG9ydGZvbGlvJTJGc3JjJTJGYXBwJTJGZ2xvYmFscy5jc3Mmc2VydmVyPWZhbHNlISIsIm1hcHBpbmdzIjoiQUFBQSw4ZUFBa1E7QUFDbFEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz84ZGIwIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL2hvbWUvbWF0ZXVzL1RSWUJFL1BvcnRmb2xpby9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzP3tcXFwicGF0aFxcXCI6XFxcInNyYy9hcHAvbGF5b3V0LmpzXFxcIixcXFwiaW1wb3J0XFxcIjpcXFwiUHJlc3NfU3RhcnRfMlBcXFwiLFxcXCJhcmd1bWVudHNcXFwiOlt7XFxcInN1YnNldHNcXFwiOltcXFwibGF0aW5cXFwiXSxcXFwid2VpZ2h0XFxcIjpbXFxcIjQwMFxcXCJdfV0sXFxcInZhcmlhYmxlTmFtZVxcXCI6XFxcInByZXNcXFwifVwiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL2hvbWUvbWF0ZXVzL1RSWUJFL1BvcnRmb2xpby9zcmMvYXBwL2dsb2JhbHMuY3NzXCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Fmateus%2FTRYBE%2FPortfolio%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.js%22%2C%22import%22%3A%22Press_Start_2P%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%2C%22weight%22%3A%5B%22400%22%5D%7D%5D%2C%22variableName%22%3A%22pres%22%7D&modules=%2Fhome%2Fmateus%2FTRYBE%2FPortfolio%2Fsrc%2Fapp%2Fglobals.css&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./src/app/globals.css":
+/*!*****************************!*\
+  !*** ./src/app/globals.css ***!
+  \*****************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"cb6dd968dc39\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6IjtBQUFBLCtEQUFlLGNBQWM7QUFDN0IsSUFBSSxJQUFVLElBQUksaUJBQWlCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hcHAvZ2xvYmFscy5jc3M/Y2IzOSJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBcImNiNmRkOTY4ZGMzOVwiXG5pZiAobW9kdWxlLmhvdCkgeyBtb2R1bGUuaG90LmFjY2VwdCgpIH1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/app/globals.css\n"));
+
+/***/ })
+
+});
