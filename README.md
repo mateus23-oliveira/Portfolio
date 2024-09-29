@@ -11,7 +11,17 @@ Olá, sou mateus, desenvolvedor(a) web com experiência em criação de interfac
 ## Como rodar localmente:
 1. Clone o repositório:
 ```bash
-git@github.com:mateus23-oliveira/Portfolio.git
-cd seu-repositorio
+  git@github.com:mateus23-oliveira/Portfolio.git
+  cd seu-repositorio
+```
+2.Instale as dependências:
+```bash
 npm install
+```
+3.Execute o projeto:
+```bash
 npm run dev
+```
+
+
+
