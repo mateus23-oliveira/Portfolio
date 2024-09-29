@@ -12,3 +12,6 @@ Olá, sou mateus, desenvolvedor(a) web com experiência em criação de interfac
 1. Clone o repositório:
 ```bash
 git@github.com:mateus23-oliveira/Portfolio.git
+cd seu-repositorio
+npm install
+npm run dev
