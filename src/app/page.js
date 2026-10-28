@@ -18,7 +18,7 @@ const projects = [
       'Sistema acadêmico pensado para apoiar o registro de ocorrências com animais silvestres, incluindo animais feridos e vítimas de atropelamento. O trabalho envolve frontend, backend e persistência de dados.',
     stack: ['React', 'Node.js', 'MongoDB', 'JWT', 'Multer'],
     status: 'Projeto acadêmico',
-    href: 'https://github.com/mateus23-oliveira',
+    href: 'https://github.com/mateus23-oliveira/Simbiose_React',
     linkLabel: 'Ver projetos no GitHub',
   },
   {
@@ -29,7 +29,7 @@ const projects = [
       'Experimentos e aplicações com rotas, operações CRUD, validação de dados e comunicação entre aplicações e bancos de dados. Base para desenvolver serviços que também possam consumir recursos de IA.',
     stack: ['JavaScript', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'MySQL'],
     status: 'Prática de desenvolvimento',
-    href: 'https://github.com/mateus23-oliveira',
+    href: 'https://github.com/mateus23-oliveira/ApiOngAdo-o',
     linkLabel: 'Explorar repositórios',
   },
 ];
@@ -172,7 +172,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <p className="project-note"><span>Nota:</span> substitua os links gerais do GitHub pelos links diretos de cada repositório e acrescente capturas de tela, instruções de execução e sua contribuição específica antes de enviar o portfólio à seleção.</p>
+       
       </section>
 
       <section className="ai-section" id="ia">

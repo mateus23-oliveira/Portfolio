@@ -1,58 +1,8 @@
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.js","import":"Press_Start_2P","arguments":[{"subsets":["latin"],"weight":["400"]}],"variableName":"pressStart"} ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/* cyrillic-ext */
-@font-face {
-  font-family: '__Press_Start_2P_b676d4';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/60c1b9efbca49fe9-s.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: '__Press_Start_2P_b676d4';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/31dd38bdb4daced8-s.woff2) format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek */
-@font-face {
-  font-family: '__Press_Start_2P_b676d4';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/3511decdf5d10790-s.woff2) format('woff2');
-  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
-}
-/* latin-ext */
-@font-face {
-  font-family: '__Press_Start_2P_b676d4';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/999f4d94c8b14f83-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: '__Press_Start_2P_b676d4';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/_next/static/media/9b8c15de1de72117-s.p.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Press_Start_2P_Fallback_b676d4';src: local("Arial");ascent-override: 44.14%;descent-override: 0.00%;line-gap-override: 0.00%;size-adjust: 226.55%
-}.__className_b676d4 {font-family: '__Press_Start_2P_b676d4', '__Press_Start_2P_Fallback_b676d4';font-weight: 400;font-style: normal
-}
-
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
-*, ::before, ::after {
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -105,8 +55,7 @@
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -158,13 +107,14 @@
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
-}/*
+}
+/*
 ! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com
-*//*
+*/
+/*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
-
 *,
 ::before,
 ::after {
@@ -173,12 +123,10 @@
   border-style: solid; /* 2 */
   border-color: #e5e7eb; /* 2 */
 }
-
 ::before,
 ::after {
   --tw-content: '';
 }
-
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -188,7 +136,6 @@
 6. Use the user's configured `sans` font-variation-settings by default.
 7. Disable tap highlights on iOS
 */
-
 html,
 :host {
   line-height: 1.5; /* 1 */
@@ -201,42 +148,34 @@ html,
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
 }
-
 /*
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
-
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
-
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
-
 hr {
   height: 0; /* 1 */
   color: inherit; /* 2 */
   border-top-width: 1px; /* 3 */
 }
-
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
-
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
-
 /*
 Remove the default font size and weight for headings.
 */
-
 h1,
 h2,
 h3,
@@ -246,32 +185,26 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
-
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
-
 a {
   color: inherit;
   text-decoration: inherit;
 }
-
 /*
 Add the correct font weight in Edge and Safari.
 */
-
 b,
 strong {
   font-weight: bolder;
 }
-
 /*
 1. Use the user's configured `mono` font-family by default.
 2. Use the user's configured `mono` font-feature-settings by default.
 3. Use the user's configured `mono` font-variation-settings by default.
 4. Correct the odd `em` font sizing in all browsers.
 */
-
 code,
 kbd,
 samp,
@@ -281,19 +214,15 @@ pre {
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
 }
-
 /*
 Add the correct font size in all browsers.
 */
-
 small {
   font-size: 80%;
 }
-
 /*
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
-
 sub,
 sup {
   font-size: 75%;
@@ -301,33 +230,27 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-
 sub {
   bottom: -0.25em;
 }
-
 sup {
   top: -0.5em;
 }
-
 /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
 2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 3. Remove gaps between table borders by default.
 */
-
 table {
   text-indent: 0; /* 1 */
   border-color: inherit; /* 2 */
   border-collapse: collapse; /* 3 */
 }
-
 /*
 1. Change the font styles in all browsers.
 2. Remove the margin in Firefox and Safari.
 3. Remove default padding in all browsers.
 */
-
 button,
 input,
 optgroup,
@@ -344,21 +267,17 @@ textarea {
   margin: 0; /* 2 */
   padding: 0; /* 3 */
 }
-
 /*
 Remove the inheritance of text transform in Edge and Firefox.
 */
-
 button,
 select {
   text-transform: none;
 }
-
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Remove default button styles.
 */
-
 button,
 input:where([type='button']),
 input:where([type='reset']),
@@ -367,80 +286,62 @@ input:where([type='submit']) {
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
 }
-
 /*
 Use the modern Firefox focus style for all focusable elements.
 */
-
 :-moz-focusring {
   outline: auto;
 }
-
 /*
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
-
 :-moz-ui-invalid {
   box-shadow: none;
 }
-
 /*
 Add the correct vertical alignment in Chrome and Firefox.
 */
-
 progress {
   vertical-align: baseline;
 }
-
 /*
 Correct the cursor style of increment and decrement buttons in Safari.
 */
-
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
   height: auto;
 }
-
 /*
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
 */
-
 [type='search'] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
-
 /*
 Remove the inner padding in Chrome and Safari on macOS.
 */
-
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Change font properties to `inherit` in Safari.
 */
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-
 /*
 Add the correct display in Chrome and Safari.
 */
-
 summary {
   display: list-item;
 }
-
 /*
 Removes the default spacing and border for appropriate elements.
 */
-
 blockquote,
 dl,
 dd,
@@ -456,16 +357,13 @@ p,
 pre {
   margin: 0;
 }
-
 fieldset {
   margin: 0;
   padding: 0;
 }
-
 legend {
   padding: 0;
 }
-
 ol,
 ul,
 menu {
@@ -473,60 +371,49 @@ menu {
   margin: 0;
   padding: 0;
 }
-
 /*
 Reset default styling for dialogs.
 */
 dialog {
   padding: 0;
 }
-
 /*
 Prevent resizing textareas horizontally by default.
 */
-
 textarea {
   resize: vertical;
 }
-
 /*
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
-
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
-
 /*
 Set the default cursor for buttons.
 */
-
 button,
 [role="button"] {
   cursor: pointer;
 }
-
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
 :disabled {
   cursor: default;
 }
-
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
    This can trigger a poorly considered lint error in some tools but is included by design.
 */
-
 img,
 svg,
 video,
@@ -538,199 +425,204 @@ object {
   display: block; /* 1 */
   vertical-align: middle; /* 2 */
 }
-
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
-
 img,
 video {
   max-width: 100%;
   height: auto;
 }
-
 /* Make elements with the HTML hidden attribute stay hidden by default */
 [hidden] {
   display: none;
 }
-.absolute {
+.absolute{
   position: absolute;
 }
-.relative {
+.relative{
   position: relative;
 }
-.left-0 {
+.left-0{
   left: 0px;
 }
-.right-0 {
+.right-0{
   right: 0px;
 }
-.top-1\/2 {
+.top-1\/2{
   top: 50%;
 }
-.mb-2 {
+.mb-2{
   margin-bottom: 0.5rem;
 }
-.mb-4 {
+.mb-4{
   margin-bottom: 1rem;
 }
-.mb-6 {
+.mb-6{
   margin-bottom: 1.5rem;
 }
-.mr-4 {
+.mr-4{
   margin-right: 1rem;
 }
-.mt-2 {
+.mt-2{
   margin-top: 0.5rem;
 }
-.mt-4 {
+.mt-4{
   margin-top: 1rem;
 }
-.flex {
+.flex{
   display: flex;
 }
-.-translate-y-1\/2 {
+.-translate-y-1\/2{
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.translate-x-0 {
+.translate-x-0{
   --tw-translate-x: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.translate-x-full {
+.translate-x-full{
   --tw-translate-x: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.transform {
+.transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
-.items-center {
+.items-center{
   align-items: center;
 }
-.justify-center {
+.justify-center{
   justify-content: center;
 }
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+.space-x-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.overflow-hidden {
+.overflow-hidden{
   overflow: hidden;
 }
-.rounded-full {
+.rounded-full{
   border-radius: 9999px;
 }
-.rounded-lg {
+.rounded-lg{
   border-radius: 0.5rem;
 }
-.border-2 {
+.border-2{
   border-width: 2px;
 }
-.border-green-500 {
+.border-green-500{
   --tw-border-opacity: 1;
   border-color: rgb(34 197 94 / var(--tw-border-opacity));
 }
-.bg-black {
+.bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-.bg-gray-800 {
+.bg-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
-.bg-gray-900 {
+.bg-gray-900{
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
-.bg-green-500 {
+.bg-green-500{
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
-.object-cover {
+.object-cover{
   -o-object-fit: cover;
      object-fit: cover;
 }
-.p-2 {
+.p-2{
   padding: 0.5rem;
 }
-.p-6 {
+.p-6{
   padding: 1.5rem;
 }
-.p-8 {
+.p-8{
   padding: 2rem;
 }
-.text-center {
+.text-center{
   text-align: center;
 }
-.text-3xl {
+.text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-4xl {
+.text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-.text-lg {
+.text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.text-xl {
+.text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.font-bold {
+.font-bold{
   font-weight: 700;
 }
-.text-green-500 {
+.text-green-500{
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
 }
-.text-white {
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.opacity-0 {
+.opacity-0{
   opacity: 0;
 }
-.opacity-100 {
+.opacity-100{
   opacity: 1;
 }
-.transition-transform {
+.transition-transform{
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.duration-500 {
+.duration-500{
   transition-duration: 500ms;
 }
-.ease-in-out {
+.ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Press+Start+2P&family=Rye&display=swap');
-
-body {
-    font-family: "Jacquarda Bastarda 9", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.hover\:bg-green-700:hover {
+:root{--bg:#080b0a;--panel:#101512;--panel-2:#131a16;--line:#25312a;--text:#edf3ee;--muted:#9aa89e;--green:#b5f36d;--green-2:#84c94d;--mono:'DM Mono',monospace;--sans:'DM Sans',sans-serif;--display:'Space Grotesk',sans-serif}
+*{box-sizing:border-box;scroll-behavior:smooth}
+html{scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+::-moz-selection{background:var(--green);color:#081008}
+::selection{background:var(--green);color:#081008}
+.site-header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 max(6vw,24px);border-bottom:1px solid rgba(151,179,156,.12);position:sticky;top:0;background:rgba(8,11,10,.9);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);z-index:20}
+.brand{display:flex;align-items:center;gap:10px;font:600 17px var(--display);letter-spacing:-.5px}.brand-mark{width:34px;height:34px;display:grid;place-items:center;border:1px solid #3a4e3b;border-radius:9px;color:var(--green);font-weight:700}.brand-mark span,.muted{color:var(--muted)}.navigation{display:flex;align-items:center;gap:30px;font-size:13px;color:#c0cbc2}.navigation a{transition:color .2s}.navigation a:hover{color:var(--green)}.navigation .nav-contact{border:1px solid #3b4b3d;padding:8px 13px;border-radius:7px;color:var(--text)}.nav-contact span{color:var(--green);margin-left:5px}
+.section-wrap{width:min(1120px,88%);margin:0 auto}.hero{min-height:690px;padding-top:110px;padding-bottom:80px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:55px;position:relative}.availability{display:inline-flex;align-items:center;gap:9px;border:1px solid #29372c;background:#101712;color:#c6d2c7;border-radius:99px;padding:7px 13px;font-size:12px;margin-bottom:28px}.status-dot{width:7px;height:7px;background:var(--green);border-radius:50%;box-shadow:0 0 12px #b5f36d66}.hero-kicker,.eyebrow{font:11px var(--mono);letter-spacing:1.5px;color:var(--green)}.hero-kicker{margin:0 0 15px}.hero h1{font:600 clamp(40px,5.3vw,66px)/1.08 var(--display);letter-spacing:-3.3px;margin:0;max-width:700px}.hero h1 span,.contact h2 span{color:var(--green)}.hero-description{color:#a7b3aa;max-width:590px;font-size:16px;line-height:1.85;margin:25px 0 27px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;gap:18px;border-radius:7px;padding:12px 17px;font-size:13px;font-weight:700;transition:transform .2s,border-color .2s,background .2s}.button:hover{transform:translateY(-2px)}.button-primary{background:var(--green);color:#10170d}.button-primary:hover{background:#c8ff89}.button-secondary{border:1px solid #354238;background:#111612;color:#e3ebe4}.button-secondary:hover{border-color:var(--green)}.button span{font-size:16px}.hero-facts{display:flex;gap:30px;margin-top:46px;padding-top:20px;border-top:1px solid #222d25}.hero-facts div{display:flex;flex-direction:column;gap:2px}.hero-facts strong{font:600 14px var(--display);color:#e7eee8}.hero-facts span{font-size:11px;color:#829087}.hero-visual{position:relative;min-width:0;padding:20px 0}.visual-glow{position:absolute;width:300px;height:300px;right:4%;top:15%;background:#80c84912;filter:blur(70px);border-radius:50%}.code-window{position:relative;border:1px solid #2b3a2e;border-radius:12px;background:linear-gradient(145deg,#111713,#0b0e0c);box-shadow:0 25px 90px #0008;overflow:hidden;transform:rotate(1deg)}.window-bar{height:45px;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 15px;border-bottom:1px solid #263129;color:#8c9b8f;font:10px var(--mono)}.window-dots{display:flex;gap:5px}.window-dots i{width:7px;height:7px;border-radius:50%;background:#46554a}.window-dots i:first-child{background:#bb6f60}.window-dots i:nth-child(2){background:#c9a35e}.window-dots i:nth-child(3){background:#8db86d}.window-state{color:#91d965;font-size:9px}.code-content{padding:26px 20px 24px;font:11px/2.35 var(--mono);white-space:nowrap;overflow:hidden}.code-content p{margin:0}.code-muted{display:inline-block;color:#526157;width:24px}.code-purple{color:#d5a4ff}.code-blue{color:#82c9ff}.code-green{color:#b5f36d}.code-orange{color:#ffc47b}.terminal-line{padding:12px 20px;border-top:1px solid #263129;background:#0b0f0c;color:#a6b4a8;font:10px var(--mono)}.terminal-line>span:first-child{color:var(--green)}.cursor{color:var(--green);animation:blink 1.1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}.floating-chip{position:absolute;display:flex;align-items:center;gap:9px;border:1px solid #334535;background:#111812;padding:10px 13px;border-radius:8px;color:#d4ded5;font-size:11px;box-shadow:0 10px 35px #0007}.chip-top{right:-20px;top:1px}.chip-top>span{color:var(--green);font-size:16px}.chip-bottom{left:-24px;bottom:3px}.chip-ai{color:var(--green);font-size:18px}.scroll-cue{position:absolute;left:0;bottom:24px;display:flex;align-items:center;gap:10px;color:#718076;font:10px var(--mono)}.scroll-cue span{height:25px;width:15px;border:1px solid #526156;border-radius:10px;position:relative}.scroll-cue span:after{content:'';position:absolute;top:5px;left:6px;width:2px;height:5px;background:var(--green);border-radius:2px}
+section:not(.hero){padding-top:105px;padding-bottom:105px}.section-heading{max-width:720px;margin-bottom:42px}.section-heading h2{font:600 clamp(29px,3.6vw,43px)/1.2 var(--display);letter-spacing:-1.7px;margin:13px 0 13px}.section-heading>p{color:var(--muted);font-size:14px;line-height:1.8;margin:0;max-width:660px}.about{border-top:1px solid #1a241d}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:65px;align-items:start}.about-copy p{color:#aab6ac;line-height:1.9;font-size:14px;margin:0 0 18px}.about-copy strong{color:#e8f0e9;font-weight:600}.about-panel{border:1px solid var(--line);border-radius:10px;padding:25px;background:linear-gradient(140deg,#111813,#0d110e)}.panel-icon{width:39px;height:39px;display:grid;place-items:center;border:1px solid #40563c;border-radius:9px;color:var(--green);font-size:23px}.about-panel h3{font:600 18px var(--display);margin:18px 0}.about-panel ul{padding:0;margin:0;list-style:none}.about-panel li{display:flex;gap:13px;padding:12px 0;border-top:1px solid #263129;color:#aab6ac;font-size:12px;line-height:1.7}.about-panel li span{font:11px var(--mono);color:var(--green);padding-top:2px}
+.projects{background:#0b0f0c;border-top:1px solid #1a241d;border-bottom:1px solid #1a241d}.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.project-card{display:flex;flex-direction:column;min-height:390px;padding:23px;border:1px solid #29342c;border-radius:10px;background:linear-gradient(160deg,#121814,#0d110e);transition:transform .2s,border-color .2s}.project-card:hover,.ai-card:hover{transform:translateY(-4px);border-color:#506a4a}.project-top{display:flex;justify-content:space-between;align-items:center;gap:10px}.project-number{font:12px var(--mono);color:var(--green)}.project-status{display:inline-flex;align-items:center;gap:6px;font-size:9px;color:#9cac9f}.project-status i{width:5px;height:5px;background:#9bbf70;border-radius:50%}.project-type{font:10px var(--mono);letter-spacing:.5px;color:#809087;text-transform:uppercase;margin:26px 0 8px}.project-card h3,.ai-card h3{font:600 19px/1.35 var(--display);letter-spacing:-.4px;margin:0 0 12px}.project-description,.ai-card>p{font-size:12px;line-height:1.85;color:#9eaba1;margin:0 0 20px}.tag-list{display:flex;flex-wrap:wrap;gap:7px}.tag{display:inline-block;padding:4px 8px;border:1px solid #2d3a30;border-radius:5px;background:#151d16;color:#b7c5b9;font:10px var(--mono)}.project-link{margin-top:auto;padding-top:24px;display:flex;align-items:center;justify-content:space-between;color:var(--green);font-size:12px;font-weight:700}.project-link span{font-size:16px}.project-note{margin:22px 0 0;color:#7f8d82;font-size:11px;line-height:1.8}.project-note span{color:#b5f36d}
+.ai-section{background:radial-gradient(ellipse at 90% 5%,#1a2a1b 0%,transparent 34%),#0a0e0b;border-bottom:1px solid #1a241d}.ai-callout{display:flex;gap:16px;align-items:flex-start;padding:19px 21px;margin-bottom:22px;border:1px solid #394b34;border-radius:9px;background:#111912}.ai-symbol{display:grid;place-items:center;flex:0 0 37px;height:37px;border-radius:9px;background:#20301d;color:var(--green);font-size:21px}.ai-callout strong{font:600 14px var(--display);color:#e3eee2}.ai-callout p{margin:5px 0 0;color:#9cab9c;font-size:12px;line-height:1.75}.ai-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.ai-card{padding:23px;border:1px solid #29372b;border-radius:10px;background:#0e130f;transition:transform .2s,border-color .2s}.ai-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:25px}.ai-card-head>span:first-child{font:12px var(--mono);color:var(--green)}.ai-tag{font:9px var(--mono);letter-spacing:.5px;color:#b4c2b5;border:1px solid #304032;padding:5px 7px;border-radius:4px}.ai-card h3{min-height:51px}.ai-card>p{min-height:110px}.ai-principles{margin-top:25px;padding-top:20px;border-top:1px solid #273329}.ai-principles>span{font:10px var(--mono);letter-spacing:1px;color:var(--green);text-transform:uppercase}.ai-principles p{font-size:12px;color:#a5b2a7;line-height:2}.ai-principles b{color:#e0e9e0;font-weight:600}
+.skills{border-bottom:1px solid #1a241d}.skills-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.skill-card{position:relative;padding:23px 18px;border:1px solid #29342c;border-radius:9px;background:#0e130f}.skill-index{font:10px var(--mono);color:var(--green)}.skill-card h3{font:600 15px var(--display);margin:15px 0 18px}.skill-card .tag-list{gap:6px}.skills-footnote{color:#7e8c81;font-size:11px;margin-top:20px;line-height:1.8}
+.contact{padding-bottom:80px!important}.contact-card{position:relative;overflow:hidden;border:1px solid #354634;border-radius:13px;padding:58px 55px;background:linear-gradient(115deg,#111912 0%,#101712 55%,#17251a 100%)}.contact-orb{position:absolute;width:300px;height:300px;right:0;top:-120px;border-radius:50%;background:#9cde6710;filter:blur(20px)}.contact-card>*:not(.contact-orb){position:relative}.contact h2{font:600 clamp(34px,4.4vw,51px)/1.12 var(--display);letter-spacing:-2px;margin:16px 0}.contact-card>p{max-width:600px;color:#a7b5a9;font-size:14px;line-height:1.85;margin-bottom:25px}.site-footer{min-height:90px;border-top:1px solid #1c271f;padding:20px 6%;display:flex;align-items:center;justify-content:space-between;gap:20px}.site-footer p,.site-footer>span{font-size:10px;color:#77857a}.site-footer .brand{font-size:14px}.site-footer .brand-mark{width:29px;height:29px}
+@media(max-width:950px){.navigation{gap:17px}.hero{gap:30px;padding-top:90px}.hero h1{letter-spacing:-2px}.hero-visual{transform:scale(.97)}.project-grid,.ai-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.project-card:last-child,.ai-card:last-child{grid-column:span 2;min-height:auto}.ai-card:last-child>p{min-height:0}.skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chip-top{right:-8px}.chip-bottom{left:-8px}}
+@media(max-width:700px){.site-header{height:auto;min-height:70px;padding:14px 5%;align-items:flex-start;gap:15px;flex-direction:column}.navigation{width:100%;gap:19px;overflow-x:auto;padding:2px 0 5px;white-space:nowrap;font-size:12px}.navigation .nav-contact{padding:5px 9px}.section-wrap{width:90%}.hero{grid-template-columns:1fr;padding-top:70px;padding-bottom:85px;gap:35px;min-height:auto}.hero h1{font-size:clamp(42px,11vw,61px)}.hero-description{font-size:14px}.hero-facts{gap:20px;margin-top:32px}.hero-facts span{font-size:10px}.hero-visual{width:min(100%,480px);margin:0 auto;padding:12px 0 22px}.code-content{font-size:10px;padding:20px 13px}.floating-chip{font-size:9px;padding:8px}.chip-top{right:-5px}.chip-bottom{left:-5px;bottom:0}.scroll-cue{bottom:25px;font-size:9px}.section-wrap:not(.hero){width:90%}section:not(.hero){padding-top:75px;padding-bottom:75px}.section-heading{margin-bottom:30px}.section-heading h2{font-size:32px;letter-spacing:-1.1px}.about-grid{grid-template-columns:1fr;gap:25px}.project-grid,.ai-grid{grid-template-columns:1fr}.project-card:last-child,.ai-card:last-child{grid-column:auto}.project-card{min-height:350px}.ai-card h3,.ai-card>p{min-height:0}.skills-grid{grid-template-columns:1fr 1fr;gap:10px}.skill-card{padding:17px 13px}.tag{font-size:9px}.contact-card{padding:37px 23px}.contact h2{font-size:37px}.site-footer{align-items:flex-start;flex-direction:column;gap:10px;padding:22px 5%}.site-footer p{margin:0}}
+@media(max-width:390px){.skills-grid{grid-template-columns:1fr}.hero-facts{gap:13px}.hero-facts span{max-width:95px}.navigation{gap:15px}.availability{font-size:10px}.code-content{font-size:9px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+.hover\:bg-green-700:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
-
-.hover\:text-green-500:hover {
+.hover\:text-green-500:hover{
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
 }
-
-.hover\:underline:hover {
+.hover\:underline:hover{
   text-decoration-line: underline;
 }
-
 
