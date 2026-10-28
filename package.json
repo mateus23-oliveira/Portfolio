@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "mateus-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
     "next": "13.5.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
